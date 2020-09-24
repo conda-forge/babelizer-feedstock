@@ -1,5 +1,5 @@
 {% set name = "babelizer" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/csdms/babelizer/archive/v{{ version }}.tar.gz
-  sha256: d1171b4ce1849911924389018b6135b343e2923122abb550565a91da0483c3a2
+  sha256: 51aad105741fe5c832dd55fa4ca73b262e89e03d0ad257cf36e506216532194d
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - babelize=babelizer.cli:babelize
 
@@ -29,7 +29,6 @@ requirements:
     - pyyaml
     - tomlkit
     - isort >=5
-    - jinja2
     - cookiecutter
 
 test:
@@ -49,8 +48,8 @@ about:
   home: https://github.com/csdms/babelizer
   license: MIT
   license_family: MIT
-  license_file: LICENSE
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  license_file: LICENSE.rst
+  summary: Simple, fast, extensible JSON encoder/decoder for Python
 
   # The remaining entries in this section are optional, but recommended.
   description: |
