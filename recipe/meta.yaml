@@ -29,7 +29,6 @@ requirements:
     - pyyaml
     - tomlkit
     - isort >=5
-    - jinja2
     - cookiecutter
 
 test:
@@ -49,7 +48,7 @@ about:
   home: https://github.com/csdms/babelizer
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Simple, fast, extensible JSON encoder/decoder for Python
 
   # The remaining entries in this section are optional, but recommended.
