@@ -5,9 +5,13 @@ Home: https://github.com/csdms/babelizer
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/babelizer-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
+
+Development: https://github.com/csdms/babelizer
+
+Documentation: https://github.com/csdms/babelizer
 
 The babelizer is an easy-to-use command line tool that automatically
 wraps BMI libraries, written in C, C++ or Fortran, so that they can be
