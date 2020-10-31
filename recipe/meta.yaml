@@ -1,5 +1,5 @@
 {% set name = "babelizer" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/csdms/babelizer/archive/v{{ version }}.tar.gz
-  sha256: aa9dcce17ed02b03875ee0e2d385cc502fec2711fb25e304e270744abe12a6c6
+  sha256: a9c8f4cfdc308bbaee14fefd8a2ff06eb8777ec054ed8d0c26858454b0a365d8
 
 build:
   noarch: python
