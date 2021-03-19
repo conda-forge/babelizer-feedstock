@@ -42,7 +42,7 @@ test:
     - babelize init --help
     - babelize update --help
     - babelize generate --help
-    - babelize generate - --no-input
+    - babelize generate
 
 about:
   home: https://github.com/csdms/babelizer
