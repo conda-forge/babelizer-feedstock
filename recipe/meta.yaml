@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - babelize=babelizer.cli:babelize
@@ -45,13 +45,11 @@ test:
     - babelize generate
 
 about:
-  home: https://github.com/csdms/babelizer
+  home: https://csdms.colorado.edu/wiki/Babelizer
   license: MIT
   license_family: MIT
   license_file: LICENSE.rst
-  summary: Simple, fast, extensible JSON encoder/decoder for Python
-
-  # The remaining entries in this section are optional, but recommended.
+  summary: Command-line tool for wrapping BMI libraries in Python
   description: |
     The babelizer is an easy-to-use command line tool that automatically
     wraps BMI libraries, written in C, C++ or Fortran, so that they can be
@@ -60,7 +58,7 @@ about:
     BMI. Users are then able to run models interactively through the
     Python command line, through Python scripts or Jupyter Notebooks,
     and to use Python-based BMI tools such as the bmi-tester, pymt, or landlab.
-  doc_url: https://github.com/csdms/babelizer
+  doc_url: https://babelizer.readthedocs.io
   dev_url: https://github.com/csdms/babelizer
 
 extra:
