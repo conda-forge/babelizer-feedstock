@@ -1,11 +1,11 @@
-About babelizer
-===============
+About babelizer-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/babelizer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://csdms.colorado.edu/wiki/Babelizer
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/babelizer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Command-line tool for wrapping BMI libraries in Python
 
@@ -108,7 +108,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -157,4 +157,5 @@ Feedstock Maintainers
 =====================
 
 * [@mcflugen](https://github.com/mcflugen/)
+* [@mdpiper](https://github.com/mdpiper/)
 
